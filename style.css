@@ -1,0 +1,100 @@
+.box{
+    background-image: linear-gradient( to left,rgb(231, 88, 88),pink,aqua);
+height: 200px;
+width: 200px;
+}
+.box1{
+background-image:radial-gradient( rgb(231, 88, 88),pink,aqua);
+height: 200px;
+width: 200px;
+}
+.box2{
+    background-image: linear-gradient( rgb(231, 88, 88),pink,aqua);
+height: 200px;
+width: 200px;
+float: left;
+}
+.box3{
+    background-image: linear-gradient( rgb(231, 88, 88),pink,aqua);
+height: 200px;
+width: 200px;
+float: right;
+}
+
+
+.box4{
+    background-color: aqua;
+    float: right;
+    margin-top: 20em;
+    
+}
+.box5{
+    background-color: aqua;
+    clear: right;
+    float: left;
+    
+}
+.box6{
+    background-color: aqua;
+    clear: left;
+    float: right;
+    
+}
+.box7{
+    background-color: aqua;
+    clear: right;
+    float: left;
+    
+}
+.boxes{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+.box8{
+    background-color: rgb(218, 77, 218);
+    box-sizing: content-box;
+
+    /* total width:224px;
+    total height:224px; 
+    width=200px+(2*10)+(2*2)=200+20+4=224
+    
+    */
+
+
+}
+.box9{
+    background-color: aqua;
+    box-sizing: border-box;
+
+     /* total width:224px;
+    total height:224px; 
+    width=200px-(2*10)-(2*2)=200-20-4=176
+    
+    */
+}
+
+.boxes1{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+}
+.box10{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.box11{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+ 
+    z-index: -1;
+
+}
